@@ -55,6 +55,15 @@ static void MX_GPIO_Init(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 
+int subtract (int a, int b)
+{
+	return a + b;
+}
+
+int add (int a, int b) {
+	return a + b
+}
+
 /* USER CODE END 0 */
 
 /**
@@ -95,6 +104,7 @@ int main(void)
   {
     /* USER CODE END WHILE */
 	  HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_11);
+	  
 	  HAL_Delay(5000);
     /* USER CODE BEGIN 3 */
   }
