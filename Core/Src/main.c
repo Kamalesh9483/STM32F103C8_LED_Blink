@@ -55,6 +55,10 @@ static void MX_GPIO_Init(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 
+int add (int a, int b) {
+	return a + b
+}
+
 /* USER CODE END 0 */
 
 /**
